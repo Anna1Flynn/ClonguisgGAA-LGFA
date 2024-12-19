@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Your Form</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="navbar">
+      <a href="index.html" class="bar-item button">HOME</a>
+      <a href="fixtures.html" class="bar-item button">FIXTURES</a>
+      <a href="results.html" class="bar-item button">RESULTS</a>
+      <a href="photogallery.html" class="bar-item button">PHOTO GALLERY</a>
+      <a href="https://smartlotto.ie/clonguish-gaa/" class="bar-item button">LOTTO</a>
+  <a href="https://www.oneills.com/shop-by-team/gaa/ireland/clonguish-gaa.html" class="bar-item button">SHOP</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>CONTACT US</h1
+    <p>Want To Get Involved? </p>
+  </header>
+
+  <!-- Form Selection -->
+  <div class="form-selection">
+    <button class="form-button" id="VolunteerFormButton">To Volunteer</button>
+    <button class="form-button" id="fundraiserFormButton">Ideas for Fundraising</button>
+  </div>
+
+  <!-- Forms Section -->
+  <div class="forms-container">
+    <!-- Login Form -->
+    <form id="VolunteerForm" class="container form-hidden">
+      <h1>Details</h1>
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <!-- Contact Form -->
+    <form id="fundraiserForm" class="container form-hidden">
+      <h1>Ideas Wanted</h1>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Name... (not required) ">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Last name... (not required) ">
+      <label for="subject">Idea</label>
+      <textarea id="subject" name="subject" placeholder="Your Idea..." style="height:200px" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+  <h2> Contact Us Directly at <a href="
+secretary.clonguish.longford@gaa.ie">
+secretary.clonguish.longford@gaa.ie</a> </h2>
+  
+
+  <script src="script2.js"></script>
+</body>
+</html>
