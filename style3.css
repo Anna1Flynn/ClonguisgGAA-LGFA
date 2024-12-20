@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #186a3b;
+  color: #ffffff;
+}
+
+/* Navigation */
+.navbar a {
+  float: left; 
+  display: block;
+  color: #000000;
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  background-color: #ddd; 
+  color: #17202a; 
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #186a3b, #ffffff);
+  color: #000000;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* Form Selection Buttons */
+.form-selection {
+  text-align: center;
+  margin: 20px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #04AA6D;
+  color: 000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+/* Forms Section */
+.forms-container {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.container {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"], input[type="password"], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: #45a049;
+}
+
+/* Hide forms initially */
+.form-hidden {
+  display: none;
+}
+
